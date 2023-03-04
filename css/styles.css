@@ -135,7 +135,7 @@ text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
-.employees-item-subscription {
+.employees-item-description {
 font-weight: 400;
 font-size: 16px;
 line-height: 1,5;
@@ -157,4 +157,58 @@ line-height: 1,5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 background-color: #2E2F42;
+}
+/* -------------Button------------ */
+.btn-tittle {
+    visibility: hidden;
+}
+.btn-list {
+}
+.list {
+}
+.btn-item {
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background: #F4F4FD;
+}
+.btn-item:hover{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #404BBF; 
+}
+/* ----------------- Gallery ----------------  */
+.gallery-title {
+    visibility: hidden;
+}
+.gallery-list {
+}
+.list {
+}
+.gallery-item-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.gallery-item-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #434455;
 }
