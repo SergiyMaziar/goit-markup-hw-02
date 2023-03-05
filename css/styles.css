@@ -4,6 +4,18 @@ body{
 .list{
     list-style: none;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .header {
 }
 .header-navigation {
@@ -49,6 +61,9 @@ background-color: #2E2F42;;
 }
 .hero-item {
 }
+.btn {
+cursor: pointer;
+}
 .hero-btn {
 }
 .hero-item {
@@ -71,9 +86,6 @@ background: #4D5AE5;
 }
 /* ----------------- Advantages--------------- */
 .advantages {
-}
-.advantages-title {
-    visibility: hidden;
 }
 .advantages-list {
 }
@@ -159,9 +171,6 @@ color: #E7E9FC;
 background-color: #2E2F42;
 }
 /* -------------Button------------ */
-.btn-tittle {
-    visibility: hidden;
-}
 .btn-list {
 }
 .list {
@@ -177,23 +186,12 @@ letter-spacing: 0.04em;
 color: #4D5AE5;
 background: #F4F4FD;
 }
-.btn-item:hover{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
+.btn-item:hover,
+.btn-item:focus{
 color: #FFFFFF;
 background: #404BBF; 
 }
 /* ----------------- Gallery ----------------  */
-.gallery-title {
-    visibility: hidden;
-}
 .gallery-list {
 }
 .list {
